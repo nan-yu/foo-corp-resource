@@ -3,6 +3,7 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.4.1
+    configmanagement.gke.io/managed: disabled
   creationTimestamp: null
   name: alertmanagerconfigs.monitoring.coreos.com
 spec:
@@ -2436,6 +2437,7 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.4.1
+    configmanagement.gke.io/managed: disabled
   creationTimestamp: null
   name: alertmanagers.monitoring.coreos.com
 spec:
@@ -7327,6 +7329,7 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.4.1
+    configmanagement.gke.io/managed: disabled
   creationTimestamp: null
   name: podmonitors.monitoring.coreos.com
 spec:
@@ -7774,6 +7777,7 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.4.1
+    configmanagement.gke.io/managed: disabled
   creationTimestamp: null
   name: probes.monitoring.coreos.com
 spec:
@@ -8197,6 +8201,7 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.4.1
+    configmanagement.gke.io/managed: disabled
   creationTimestamp: null
   name: prometheuses.monitoring.coreos.com
 spec:
@@ -14758,6 +14763,7 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.4.1
+    configmanagement.gke.io/managed: disabled
   creationTimestamp: null
   name: prometheusrules.monitoring.coreos.com
 spec:
@@ -14848,6 +14854,7 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.4.1
+    configmanagement.gke.io/managed: disabled
   creationTimestamp: null
   name: servicemonitors.monitoring.coreos.com
 spec:
@@ -15318,6 +15325,7 @@ kind: CustomResourceDefinition
 metadata:
   annotations:
     controller-gen.kubebuilder.io/version: v0.4.1
+    configmanagement.gke.io/managed: disabled
   creationTimestamp: null
   name: thanosrulers.monitoring.coreos.com
 spec:
